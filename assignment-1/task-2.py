@@ -12,6 +12,7 @@ class Account:
 
         Returns: nothing
         """
+        self.name = name
         self.balance = balance
 
     def store(self, money: int):
